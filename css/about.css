@@ -1,0 +1,128 @@
+@media only screen and (max-width: 600px) {
+    #aboutme{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #summary{
+        margin-top: 50px;
+        width: 80%;
+        background-color: gray;
+    
+    }
+    #summary figure{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    #summary figure img{
+        margin-top: 10px;
+        width: 20%;
+        border-radius: 47%;
+    }
+    #summary figure figcaption {
+        text-align: center;
+        line-height: 30px;
+        padding-top: 10px;
+    }
+    #education{
+        width: 80%;
+        background-color: gray;
+        text-align: center;
+        padding-top: 20px;
+        line-height: 30px;
+    }
+    #experience {
+        width: 80%;
+        background-color: gray;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        line-height: 30px;
+    }
+    #aboutme button {
+        margin: 20px 0 30px 0;
+        background-color: rgb(255, 166, 1);
+        border-radius: 12px;
+        padding: 10px;
+        font-size: 20px;
+    }
+    #to-top-btn {
+        bottom: 5%;
+        right:3%;
+        opacity: 0.5;
+        position: fixed;
+    }
+    #to-top-btn:hover {
+        opacity: 1;
+    }
+    #to-top-btn svg {
+        fill:  rgb(255, 166, 1);
+        height: 35px;
+        stroke: rgb(255, 166, 1);
+        width: 35px;
+    }
+    #to-top-btn:hover svg {
+        stroke: var(--darker-main-color);
+    }
+
+}
+@media only screen and (min-width: 600px){
+    #aboutme{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #summary{
+        margin-top: 100px;
+        width: 60%;
+        background-color: gray;
+    
+    }
+    #summary figure{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    #summary figure img{
+        margin-top: 10px;
+        width: 20%;
+        border-radius: 47%;
+    }
+    #summary figure figcaption {
+        text-align: center;
+        font-size: 30px;
+        line-height: 40px;
+        padding-top: 10px;
+    }
+    #education{
+        width: 60%;
+        background-color: gray;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 20px;
+        line-height: 40px;
+    }
+    #experience {
+        width: 60%;
+        background-color: gray;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 50px;
+    }
+    #aboutme button {
+        margin: 20px 0 20px 0;
+        background-color: rgb(255, 166, 1);
+        border-radius: 12px;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+}

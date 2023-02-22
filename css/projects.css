@@ -1,0 +1,200 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (max-width: 600px) {
+    #listOfProjects{
+        background-color: var(--darker-main-color);
+        margin: 2px 0 2px 0;
+        padding: 20px;
+        color: var(--text-color);
+    }
+    #listOfProjects ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        color: var(--text-color);
+        padding-left: 40px;
+    }
+    #listOfProjects ul a {
+        color: var(--text-color);
+        font-size: 12px;
+        text-decoration: none;
+        line-height: 10px;
+    }
+    #project1 {
+        background-color: var(--darker-main-color);
+    }
+    #project1 figure {
+        display: flex;
+        flex-direction: column;
+    }
+    #project1 a{
+        width: 100%;
+    }
+    #project1 a img {
+        padding: 50px;
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+    }
+    #project1 figcaption {
+        color: var(--text-color);
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    #project2 {
+        background-color: var(--darker-main-color);
+        height: 30vh;
+        margin-top: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #project2 p {
+        color: var(--text-color);
+    }
+    #project3 {
+        background-color: var(--darker-main-color);
+        height: 30vh;
+        margin: 2px 0 2px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #project3 p {
+        color: var(--text-color);
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #listOfProjects{
+        background-color: var(--darker-main-color);
+        height: 20vh;
+        line-height: 30px;
+        border: black 5px;
+        margin: 2px 0 2px 0;
+        color: var(--text-color);
+        font-size: 40px;
+        padding-top: 30px;
+        padding-left: 40px;
+    }
+    #listOfProjects ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        color: var(--text-color);
+        padding-left: 60px;
+    }
+    #listOfProjects ul li {
+        width: 50%;
+    }
+    #listOfProjects ul a {
+        color: var(--text-color);
+        text-decoration: none;
+        font-size: 30px;
+    }
+    #project1 {
+        background-color: var(--darker-main-color);
+    }
+    #project1 figure {
+        display: flex;
+    }
+    #project1 a{
+        width: 50%;
+    }
+    #project1 a img {
+        padding: 50px;
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+    }
+    #project1 figcaption {
+        color: var(--text-color);
+        padding-top: 100px;
+    }
+    #project2 {
+        background-color: var(--darker-main-color);
+        height: 30vh;
+        margin-top: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #project2 p {
+        color: var(--text-color);
+    }
+    #project3 {
+        background-color: var(--darker-main-color);
+        height: 30vh;
+        margin: 2px 0 2px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #project3 p {
+        color: var(--text-color);
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #listOfProjects{
+        background-color: var(--darker-main-color);
+        height: 20vh;
+        line-height: 30px;
+        border: black 5px;
+        margin: 2px 0 2px 0;
+    }
+    #listOfProjects ul {
+        display: flex;
+        justify-content: space-around;
+        color: var(--text-color);
+        padding-top: 30px;
+    }
+    #listOfProjects ul a {
+        color: var(--text-color);
+        text-decoration: none;
+    }
+    #project1 {
+        background-color: var(--darker-main-color);
+    }
+    #project1 figure {
+        display: flex;
+    }
+    #project1 a{
+        width: 50%;
+    }
+    #project1 a img {
+        padding: 50px;
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+    }
+    #project1 figcaption {
+        color: var(--text-color);
+        padding-top: 100px;
+    }
+    #project2 {
+        background-color: var(--darker-main-color);
+        height: 30vh;
+        margin-top: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #project2 p {
+        color: var(--text-color);
+    }
+    #project3 {
+        background-color: var(--darker-main-color);
+        height: 30vh;
+        margin: 2px 0 2px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #project3 p {
+        color: var(--text-color);
+    }
+}
+
