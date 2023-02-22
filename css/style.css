@@ -200,7 +200,6 @@ body {
         height: 10vh;
         background-color: var(--darker-main-color);
         padding: 20px;
-        margin-bottom: 0;
         display: flex;
         justify-content: space-between;
     }
@@ -304,6 +303,7 @@ body {
         justify-content: center;
         align-items: flex-end;
         margin: 100px 0 100px 0;
+        min-height: 400px;
     }
     #section3 img {
         min-width: 800px;
