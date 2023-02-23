@@ -49,25 +49,6 @@
         padding: 10px;
         font-size: 20px;
     }
-    #to-top-btn {
-        bottom: 5%;
-        right:3%;
-        opacity: 0.5;
-        position: fixed;
-    }
-    #to-top-btn:hover {
-        opacity: 1;
-    }
-    #to-top-btn svg {
-        fill:  rgb(255, 166, 1);
-        height: 35px;
-        stroke: rgb(255, 166, 1);
-        width: 35px;
-    }
-    #to-top-btn:hover svg {
-        stroke: var(--darker-main-color);
-    }
-
 }
 @media only screen and (min-width: 600px){
     #aboutme{
@@ -79,7 +60,6 @@
         margin-top: 100px;
         width: 60%;
         background-color: gray;
-    
     }
     #summary figure{
         display: flex;
@@ -128,15 +108,16 @@
 }
 @media only screen and (min-width: 1100px) {
     #aboutme{
-        height: 100vh;
+        height: 150vh;
         display: flex;
         flex-direction: column;
         align-items: center;
+        background-color: var(--darker-main-color);
     }
     #summary{
         width: 80%;
         margin-top: 0;
-        background-color: gray;
+        background-color: var(--darker-main-color);
     
     }
     #summary figure{
@@ -153,23 +134,26 @@
     }
     #summary figure figcaption {
         text-align: center;
-        line-height: 30px;
+        line-height: 50px;
         padding-top: 10px;
+        color: var(--text-color);
     }
     #education{
         width: 80%;
-        background-color: gray;
+        background-color: var(--darker-main-color);
         text-align: center;
         padding-top: 20px;
-        line-height: 30px;
+        line-height: 50px;
+        color: var(--text-color);
     }
     #experience {
         width: 80%;
-        background-color: gray;
+        background-color: var(--darker-main-color);
         text-align: center;
         padding-top: 20px;
         padding-bottom: 5px;
-        line-height: 30px;
+        line-height: 50px;
+        color: var(--text-color);
     }
     #aboutme button {
         margin: 20px 0 30px 0;
@@ -178,23 +162,4 @@
         padding: 10px;
         font-size: 20px;
     }
-    #to-top-btn {
-        bottom: 5%;
-        right:3%;
-        opacity: 0.5;
-        position: fixed;
-    }
-    #to-top-btn:hover {
-        opacity: 1;
-    }
-    #to-top-btn svg {
-        fill:  rgb(255, 166, 1);
-        height: 35px;
-        stroke: rgb(255, 166, 1);
-        width: 35px;
-    }
-    #to-top-btn:hover svg {
-        stroke: var(--darker-main-color);
-    }
-
 }

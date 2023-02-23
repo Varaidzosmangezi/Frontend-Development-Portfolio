@@ -70,12 +70,12 @@ main{
 @media only screen and (min-width: 600px) {
     #listOfProjects{
         background-color: var(--darker-main-color);
-        height: 20vh;
+        height: 30vh;
         line-height: 30px;
         border: black 5px;
         margin: 2px 0 2px 0;
         color: var(--text-color);
-        font-size: 40px;
+        font-size: 30px;
         padding-top: 30px;
         padding-left: 40px;
     }
@@ -85,6 +85,7 @@ main{
         justify-content: space-around;
         color: var(--text-color);
         padding-left: 60px;
+        padding-bottom: 30px;
     }
     #listOfProjects ul li {
         width: 50%;
@@ -92,7 +93,7 @@ main{
     #listOfProjects ul a {
         color: var(--text-color);
         text-decoration: none;
-        font-size: 30px;
+        font-size: 20px;
     }
     #project1 {
         background-color: var(--darker-main-color);
